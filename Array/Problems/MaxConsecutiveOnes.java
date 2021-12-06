@@ -1,7 +1,7 @@
 package Array.Problems;
 
 //Given a binary array nums, return the maximum number of consecutive 1's in the array.
-class Solution {
+class MaxConsecutiveOnes {
     public int findMaxConsecutiveOnes(int[] nums) {
         int max = 0, count = 0;
         
