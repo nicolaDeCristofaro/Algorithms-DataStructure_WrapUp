@@ -262,5 +262,7 @@ class Solution {
     }
 }
 ```
-And that is the basics of Arrays that you'll need to get started! In the next chapter, we'll look at some of the fundamental techniques we use to work with Arrays.
+And that is the basics of Arrays that you'll need to get started!
+
+In the folder "Problems" there are some problems that need the array to be solved. 
 
