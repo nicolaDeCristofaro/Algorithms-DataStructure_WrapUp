@@ -2,6 +2,11 @@
 
 Similar to the array, the linked list is also a linear data structure. Here is an example:
 
+<<<<<<< HEAD
+=======
+![Linked List example](./images/linkedLists1.png)
+
+>>>>>>> 00fdc65917de1a4c7e06e6d1c3400912dbd12528
 <img src="./images/linkedLists1.png" width="600" height="100" />
 
 As you can see, each element in the linked list is actually a separate object while all the objects are **linked together by the reference field** in each element.
