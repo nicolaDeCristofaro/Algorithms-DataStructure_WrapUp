@@ -124,7 +124,7 @@ Let's start with a classic problem: *Reverse a singly linked list.*
 
 One solution is to iterate the nodes in original order and move them to the head of the list one by one. It seems hard to understand. We will first use an example to go through our algorithm. 
 
-<img src="./images/linkedLists16.png" width="600" height="100" />
+<img src="./images/linkedLists16.png" />
 
 In this algorithm, each node will be moved exactly once.
 
