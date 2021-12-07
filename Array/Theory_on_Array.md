@@ -380,4 +380,4 @@ The main thing to be careful of is remembering that array.length gives you the t
 These are some coding problems on Array Insertion:
 
 - [Duplicate Zeros](./Problems/DuplicateZeros.java) 
-- [Merge Sorted Array]() 
+- [Merge Sorted Array](./Problems/MergeSortedArray.java) 
