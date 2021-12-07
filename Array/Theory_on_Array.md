@@ -262,7 +262,9 @@ class Solution {
     }
 }
 ```
-And that is the basics of Arrays that you'll need to get started!
+And that is the basics of Arrays that you'll need to get started! These are some coding problems on Array basics:
 
-In the folder "Problems" there are some problems that need the array to be solved. 
+- [Max Consecutive Ones](./Problems/MaxConsecutiveOnes.java) 
+- [Find numbers with even number of digits](./Problems/EvenNumbersOfDigits.java) 
+- [Squares of a sorted Array](./)
 
