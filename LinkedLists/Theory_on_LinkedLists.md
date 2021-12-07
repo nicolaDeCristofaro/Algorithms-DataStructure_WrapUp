@@ -2,11 +2,6 @@
 
 Similar to the array, the linked list is also a linear data structure. Here is an example:
 
-<<<<<<< HEAD
-=======
-![Linked List example](./images/linkedLists1.png)
-
->>>>>>> 00fdc65917de1a4c7e06e6d1c3400912dbd12528
 <img src="./images/linkedLists1.png" width="600" height="100" />
 
 As you can see, each element in the linked list is actually a separate object while all the objects are **linked together by the reference field** in each element.
@@ -42,19 +37,19 @@ If we want to add a new value after a given node prev, we should:
 
 1. Initialize a new node cur with the given value;
 
-<img src="./images/linkedLists3.png" width="600" height="100" />
+<img src="./images/linkedLists3.png" width="600" height="200" />
 
 2. Link the "next" field of cur to prev's next node next;
 
-<img src="./images/linkedLists4.png" width="600" height="100" />
+<img src="./images/linkedLists4.png" width="600" height="200" />
 
 3. Link the "next" field in prev to cur.
 
-<img src="./images/linkedLists5.png" width="600" height="100" />
+<img src="./images/linkedLists5.png" width="600" height="200" />
 
 Unlike an array, we don’t need to move all elements past the inserted element. Therefore, you can insert a new node into a linked list in O(1) time complexity, which is very efficient.
 
-**An Example**
+#### An Example
 <img src="./images/linkedLists6.png" width="600" height="100" />
 
 Let's insert a new value 9 after the second node 6.
@@ -63,7 +58,7 @@ We will first initialize a new node with value 9. Then link node 9 to node 15. F
 
 After insertion, our linked list will look like this:
 
-<img src="./images/linkedLists7.png" width="600" height="100" />
+<img src="./images/linkedLists7.png" width="600" height="200" />
 
 #### Add a Node at the Beginning
 As we know, we use the head node head to represent the whole list.
