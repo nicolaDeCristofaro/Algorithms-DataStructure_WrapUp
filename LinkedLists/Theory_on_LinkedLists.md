@@ -68,6 +68,7 @@ So it is essential to update head when adding a new node at the beginning of the
 1. Initialize a new node cur;
 2. Link the new node to our original head node head.
 3. Assign cur to head.
+
 For example, let's add a new node 9 at the beginning of the list.
 
 1. We initialize a new node 9 and link node 9 to current head node 23.
@@ -75,6 +76,65 @@ For example, let's add a new node 9 at the beginning of the list.
 
 2. Assign node 9 to be our new head.
 <img src="./images/linkedLists9.png" width="600" height="100" />
+
+*What about adding a new node at the end of the list? Can we still use similar strategy?*
+
+#### Delete Operation
+If we want to delete an existing node cur from the singly linked list, we can do it in two steps:
+
+1. Find cur's previous node prev and its next node next;
+<img src="./images/linkedLists10.png" width="600" height="100" />
+
+2. Link prev to cur's next node next.
+<img src="./images/linkedLists11.png" width="600" height="100" />
+
+n our first step, we need to find out prev and next. It is easy to find out next using the reference field of cur. However, we have to traverse the linked list from the head node to find out prev which will take O(N) time on average, where N is the length of the linked list. So the time complexity of deleting a node will be O(N).
+
+The space complexity is O(1) because we only need constant space to store our pointers.
+
+#### An Example
+<img src="./images/linkedLists12.png" width="600" height="100" />
+
+Let's try to delete node 6 from the singly linked list above.
+
+1. Traverse the linked list from the head until we find the previous node prev which is node 23
+
+2. Link prev (node 23) with next (node 15)
+
+<img src="./images/linkedLists13.png" width="600" height="100" />
+Node 6 is not in our singly linked list now.
+
+#### Delete the First Node
+If we want to delete the first node, the strategy will be a little different.
+
+As we mentioned before, we use the head node head to represent a linked list. Our head is the black node 23 in the example below.
+
+<img src="./images/linkedLists14.png" width="600" height="100" />
+
+If we want to delete the first node, we can simply assign the next node to head. That is to say, our head will be node 6 after deletion.
+
+<img src="./images/linkedLists15.png" width="600" height="100" />
+
+The linked list begins at the head node, so node 23 is no longer in our linked list.
+
+*What about deleting the last node? Can we still use similar strategy?*
+
+## Reverse Linked List
+Let's start with a classic problem: *Reverse a singly linked list.*
+
+One solution is to iterate the nodes in original order and move them to the head of the list one by one. It seems hard to understand. We will first use an example to go through our algorithm. 
+
+<img src="./images/linkedLists16.png" width="600" height="100" />
+
+In this algorithm, each node will be moved exactly once.
+
+Therefore, the time complexity is O(N), where N is the length of the linked list. We only use constant extra space so the space complexity is O(1).
+
+
+
+
+
+
 
 
 
