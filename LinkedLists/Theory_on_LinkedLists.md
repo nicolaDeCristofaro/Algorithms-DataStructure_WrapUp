@@ -4,7 +4,7 @@ Similar to the array, the linked list is also a linear data structure. Here is a
 
 ![Linked List example](./images/linkedLists1.png)
 
-<img src="./images/linkedLists1.png" width="400" height="100" />
+<img src="./images/linkedLists1.png" width="500" height="100" />
 
 As you can see, each element in the linked list is actually a separate object while all the objects are **linked together by the reference field** in each element.
 
