@@ -1,5 +1,7 @@
 package Array.Problems;
 
+import java.util.Arrays;
+
 /*Given a fixed-length integer array arr, duplicate each occurrence of zero, 
 shifting the remaining elements to the right.
 
