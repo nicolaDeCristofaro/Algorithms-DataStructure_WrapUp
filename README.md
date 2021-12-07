@@ -3,4 +3,4 @@ In this repository you will find various folders, each of them representing a da
 
 **This type of resource can be very useful for any role in any IT job interview**
 
-* This material is taken from LeetCode "Explore cards"
+\* This material is taken from LeetCode "Explore cards"
