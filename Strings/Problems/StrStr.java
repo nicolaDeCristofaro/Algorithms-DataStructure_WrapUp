@@ -1,4 +1,4 @@
-package Strings.Problems;
+
 
 /*Implement strStr().
 
