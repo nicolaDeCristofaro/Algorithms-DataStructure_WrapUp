@@ -278,9 +278,9 @@ Now that we have a fairly good understanding of what an Array actually is, and h
 ### Array Insertion
 Inserting a new element into an Array can take many forms:
 
-1.Inserting a new element at the end of the Array.
-2.Inserting a new element at the beginning of the Array.
-3.Inserting a new element at any given index inside the Array.
+1. Inserting a new element at the end of the Array.
+2. Inserting a new element at the beginning of the Array.
+3. Inserting a new element at any given index inside the Array.
 
 #### Inserting at the End of an Array
 At any point in time, we know the index of the last element of the Array, as we've kept track of it in our length variable. All we need to do for inserting an element at the end is to assign the new element to one index past the current last element.
